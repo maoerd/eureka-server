@@ -1,0 +1,9 @@
+# Eureka Server Parent Application Context
+# 1. Default disable load configurations from remote. You can change it
+# 2. Default remote configurations uri: http://localhost:8888. You can change it
+
+spring:
+  cloud:
+    config:
+      enabled: false
+      uri: http://localhost:8888
